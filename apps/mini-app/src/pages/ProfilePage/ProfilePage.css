@@ -1,0 +1,38 @@
+.profile-page__list {
+    display: block;
+}
+
+.profile-page__card-img {
+    max-width: 100%;
+}
+
+.profile-page__snackbar {
+    align-self: top;
+}
+
+.profile-page__modal-pity {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 2%;
+}
+
+
+.profile-page__character-icon-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+.profile-page__character-icon > img {
+    width: 78.75px;
+    border-radius: 12px;
+}
+
+.profile-page__character-icon-five > img {
+    background-color: #c72;
+}
+
+.profile-page__character-icon-four > img {
+    background-color: #96c;
+}

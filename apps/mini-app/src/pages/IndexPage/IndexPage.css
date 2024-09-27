@@ -1,0 +1,13 @@
+.index-page__list {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.index-page__card {
+    align-items: center;
+}
+
+.index-page__card-img {
+    max-width: 100%;
+}

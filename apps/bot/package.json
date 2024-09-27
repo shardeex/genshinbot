@@ -1,0 +1,18 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "bun  --watch src/index.ts",
+		"fluent": "bun x fluent2ts@latest"
+	},
+	"dependencies": {
+		"gramio": "^0.0.46",
+		"@monorepo/db": "workspace:",
+		"@gramio/media-cache": "^0.0.4",
+		"@gramio/i18n": "^0.0.4"
+	},
+	"devDependencies": {
+		"typescript": "^5.5.4",
+		"@types/bun": "^1.1.6"
+	},
+	"name": "@monorepo/bot"
+}

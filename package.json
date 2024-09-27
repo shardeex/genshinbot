@@ -1,0 +1,8 @@
+{
+	"private": true,
+	"workspaces": ["packages/*", "apps/*"],
+	"dependencies": {
+		"@gramio/auto-retry": "^0.0.3",
+		"@gramio/prompt": "^1.1.4"
+	}
+}

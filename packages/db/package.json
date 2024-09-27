@@ -1,0 +1,16 @@
+{
+	"name": "@monorepo/db",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "bun --filter 'apps/*' dev"
+	},
+	"dependencies": { "@prisma/client": "5.19.1" },
+	"devDependencies": {
+		"typescript": "^5.5.4",
+		"prisma": "^5.17.0"
+	},
+	"exports": {
+		".": "./src/index.ts"
+	}
+}
