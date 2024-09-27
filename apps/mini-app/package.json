@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
-	"homepage": "https://shardeex.github.io/genshinbot/apps/mini-app",
+	"homepage": "https://shardeex.github.io/genshinbot",
 	"scripts": {
 		"deploy": "gh-pages -d dist",
 		"dev": "vite",
